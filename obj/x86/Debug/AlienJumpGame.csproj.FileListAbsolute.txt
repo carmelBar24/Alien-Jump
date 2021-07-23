@@ -1,0 +1,29 @@
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\bin\Debug\AlienJumpGame.exe
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\bin\Debug\AlienJumpGame.pdb
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.GameForm.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.HelpForm.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.MenuForm.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.PauseForm.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.Properties.Resources.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.Resource1.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.exe
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.pdb
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.GameOverForm.resources
+E:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.exe
+E:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.pdb
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\bin\Debug\AlienJumpGame.exe
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\bin\Debug\AlienJumpGame.pdb
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.csprojAssemblyReference.cache
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.GameOverForm.resources
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.GameForm.resources
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.HelpForm.resources
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.MenuForm.resources
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.PauseForm.resources
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.Properties.Resources.resources
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.Resource1.resources
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.csproj.GenerateResource.cache
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.exe
+D:\Visual Studio 2010\AlienJumpGame\AlienJumpGame\obj\x86\Debug\AlienJumpGame.pdb

@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\bin\Release\AlienJumpGame.exe
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\bin\Release\AlienJumpGame.pdb
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.GameForm.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.HelpForm.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.MenuForm.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.PauseForm.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.Properties.Resources.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.Resource1.resources
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.exe
+C:\Users\user\Desktop\AlienJumpGame\AlienJumpGame\obj\x86\Release\AlienJumpGame.pdb

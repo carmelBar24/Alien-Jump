@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93609CD1-8C84-499A-85DF-13B00EFB67A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlienJumpGame</RootNamespace>
+    <AssemblyName>AlienJumpGame</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bricks.cs" />
+    <Compile Include="DoodleJump.cs" />
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PauseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PauseForm.Designer.cs">
+      <DependentUpon>PauseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StateType.cs" />
+    <Compile Include="type.cs" />
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PauseForm.resx">
+      <DependentUpon>PauseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elian jump.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\כרמל.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbb12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png כותרת111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png כותרת 1111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\כפתור.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.pngאאאא.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_original.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alianjump.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uהסברמ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alian00.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alian3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alian0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alian1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause_Button-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doodle_left_rocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doodle_left_green1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doodle_rocket_green2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doodle_right_green1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alian00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alian11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_broken.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HightScore.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
